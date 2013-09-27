@@ -5,7 +5,7 @@
 
 
 <?php
-	echo "yo";
+	echo "";
 	?>
 
 <!--

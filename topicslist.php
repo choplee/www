@@ -93,8 +93,9 @@
 			  {
 			  $topicName = $row['topic'];
 			  echo "<table style='margin:0px auto; width:900px' class='topicsDisplayTableHeader'>";
-			  echo "<tr><td><p class='topicLinkLoader' data-flag=0 data-selector={$row['topicID']}>";
-			  echo $topicName;
+			  echo "<tr><td><p class='topicLinkLoader' id='flag{$row['topicID']}' data-flag='0' data-selector={$row['topicID']} >";
+			  // 
+			  echo "<a href='#' style='text-decoration: none'>$topicName</a>";
 			  echo "</p>";
 			  //echo " (";
 			  //echo $row['subject'];
@@ -120,28 +121,34 @@
 $(function(){
 
   $(".topicLinkLoader").click(function(){
-	if ($(this).data('flag')==0){
-		var selector = $(this).data('selector');
-		var hash = "#";
-		var hashSelector = hash.concat(selector);
+	
+	var selector = $(this).data('selector');
+	var flagVar = "flag";
+	var elementID = flagVar.concat(selector);
+	var modFlag = document.getElementById(elementID).getAttribute('data-flag');
+	var hash = "#";
+	var hashSelector = hash.concat(selector);
+	
+	if (modFlag==0){
+
 		//window.alert($(this).data('flag'));
+		//window[$(this).data('flag')]=1;
 		
 		$(hashSelector).load("displayLinks.php", {topicID:selector});
+		document.getElementById(elementID).setAttribute('data-flag','1');
+		//document.getElementById($(this).data('selector')).data-flag = 1;
 	}
-	//else{
-	//window.alert($(this).data('flag'));
-		//$(hashSelector).load("removeLinks.php");
-	//}
+	else{
+		$(hashSelector).load("removeLinks.php");
+		document.getElementById(elementID).setAttribute('data-flag','0');
+		//window[$(this).data('flag')]=0;
+		//alert($(this).data('flag'));
+	}
 	//"myScript.php?var=x&var2=y&var3=z"
   });
 });
 </script>
 
-<script language="javascript">
-	function modifyFlag(){
-		
-	}
-</script>
 
 <!--
 /* @license
