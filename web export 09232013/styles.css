@@ -1,0 +1,311 @@
+
+/*Horizontal header menu*/
+table.headerTable {
+	border-width: 1px;
+	border-spacing: 1px;
+	border-style: hidden;
+	border-color: #C9B7B3;
+	border-collapse: collapse;
+	background-color: white;
+	font-weight: bold; 
+}
+table.headerTable th {
+	border-width: 1px;
+	padding: 5px;
+	border-style: hidden;
+	border-color: #C9B7B3;
+	background-color: white;
+	-moz-border-radius: ;
+	font-weight: bold; 
+}
+table.headerTable td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: hidden;
+	border-color: #C9B7B3;
+	background-color: white;
+	-moz-border-radius: ;
+	font-weight: bold; 
+}
+
+/*Subjects table - currently not in use*/
+table.subjectsTable {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: hidden;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.subjectsTable th {
+	border-width: 1px;
+	padding: 10px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.subjectsTable td {
+	border-width: 1px;
+	padding: 10px;
+	border-style: inset;
+	border-color: #C9B7B3;
+	background-color: white;
+	-moz-border-radius: ;
+}
+
+/*Intro display table*/
+table.introDisplayTable{
+	padding: 5 px;
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: none;
+	border-color: #757575;
+	border-collapse: collapse;
+	background-color: white;
+	font-family: MuseoSans-500; 
+	font-weight: bold; 
+	font-style: normal; 
+	font-size: 16;
+	color:  #000000
+}
+
+table.introDisplayTable th{
+	border-width: 1px;
+	padding: 10px;
+	border-style: inset;
+	border-color: #757575;
+	background-color: white;
+	-moz-border-radius: ;
+	font-family: MuseoSans-500;
+	font-weight: bold; 
+	font-style: normal; 
+	font-size: 16;
+	color: #000000
+}
+
+
+/*Topics display table*/
+table.topicsDisplayTableHeader{
+	padding: 5 px;
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: none;
+	border-color: #757575;
+	border-collapse: collapse;
+	background-color: white;
+	font-family: MuseoSans-500; 
+	font-weight: bold; 
+	font-style: normal; 
+	font-size: 16;
+	color: #000000
+}
+
+table.topicsDisplayTableHeader th{
+	border-width: 1px;
+	padding: 10px;
+	border-style: inset;
+	border-color: #757575;
+	background-color: white;
+	-moz-border-radius: ;
+	font-family: MuseoSans-500; 
+	font-weight: bold; 
+	font-style: normal; 
+	font-size: 16;
+	color: #000000
+}
+
+table.subjectsTableHeader td{
+	border-width: 1px;
+	padding: 10px;
+	border-style: inset;
+	border-color: #757575;
+	background-color: white;
+	-moz-border-radius: ;
+	font-family: MuseoSans-500; 
+	font-weight: normal; 
+	font-style: normal; 
+	font-size: 14;
+	color: #000000
+}
+
+table.topicsDisplayTable{
+	padding: 10 px;
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: none;
+	border-color: #757575;
+	border-collapse: collapse;
+	background-color: white;
+	font-family: MuseoSans-500; 
+	font-weight: normal; 
+	font-style: normal; 
+	font-size: 14;
+	color: #757575;
+	
+}
+
+table.topicsDisplayTable th{
+	border-width: 5px;
+	padding: 15px;
+	border-style: inset;
+	border-color: #757575;
+	background-color: white;
+	-moz-border-radius: ;
+	font-family: MuseoSans-500; 
+	font-weight: normal; 
+	font-style: normal; 
+	font-size: 14;
+	padding-bottom: 3em;
+}
+
+table.topicsDisplayTable td{
+    padding-top: 2em;
+    padding-bottom: 2em;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+table.topicsDisplayTable2{
+	padding: 10 px;
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: none;
+	border-color: #757575;
+	border-collapse: collapse;
+	background-color: white;
+	font-family: MuseoSans-500; 
+	font-weight: normal; 
+	font-style: normal; 
+	font-size: 14;
+	color: #757575;
+}
+
+table.topicsDisplayTable2 th{
+	border-width: 5px;
+	padding: 15px;
+	border-style: inset;
+	border-color: #757575;
+	background-color: white;
+	-moz-border-radius: ;
+	font-family: MuseoSans-500; 
+	font-weight: normal; 
+	font-style: normal; 
+	font-size: 14;
+}
+
+table.subjectsTable td{
+	border-width: 1px;
+	padding: 10px;
+	border-style: inset;
+	border-color: #757575;
+	background-color: white;
+	-moz-border-radius: ;
+	font-family: MuseoSans-500; 
+	font-weight: normal; 
+	font-style: normal; 
+	font-size: 14;
+	color: #757575;
+	padding-bottom: 3em;
+}
+
+
+/*Intro header*/
+p.intro{
+	padding: 0 20px;
+	position: relative;
+	font-family: MuseoSans-500; 
+	font-weight: normal; 
+	font-style: normal; 
+	font-size: 17;
+	color: #757575;
+	text-align: center;
+}
+
+p.intro2{
+	padding: 0 20px;
+	position: relative;
+	font-family: MuseoSans-500; 
+	font-weight: normal; 
+	font-style: normal; 
+	font-size: 14;
+	color: #757575;
+	text-align: center;
+}
+
+
+/*Menu navigation drop down bar*/
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+	
+nav ul {
+	/*
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	*/
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	font-family: MuseoSans-500; 
+	color: #000000;
+	font-weight: normal; 
+	font-style: normal; 
+
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+	
+nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #000000;
+		/*background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+		*/
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+	
+	nav ul li a {
+		display: block; padding: 15px 40px;
+		color: #000000; text-decoration: none;
+	}
+	
+nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 1px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+			
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+
